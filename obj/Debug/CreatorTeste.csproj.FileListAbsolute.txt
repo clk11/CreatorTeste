@@ -1,0 +1,262 @@
+c:\users\r_tra\documents\visual studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe.config
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.Properties.Resources.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.GenerateResource.Cache
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\MaterialSkin.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.exe
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\Zeroit.Framework.LollipopControls.dll
+C:\Users\r_tra\documents\visual studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInformatiiIntreabare.resources
+C:\Users\r_tra\documents\visual studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormBunVenit.resources
+C:\Users\r_tra\documents\visual studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.dll
+C:\Users\r_tra\documents\visual studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\r_tra\documents\visual studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.xml
+C:\Users\r_tra\documents\visual studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\Gat.Controls.MessageBox.dll
+C:\Users\r_tra\documents\visual studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaIntrebare.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.xml
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\fr\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\bin\Debug\ru\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaVizualizareRezultate.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaEditareIntreabare.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaStergere_EditareIntrebare.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInregistrareAdministrator.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAfisareProfil.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaLogareAdministrator.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaProfilAdministrator.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaSetupTest.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe.config
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.exe
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Gat.Controls.MessageBox.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\MaterialSkin.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Zeroit.Framework.LollipopControls.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.xml
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.xml
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\fr\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\ru\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAfisareProfil.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaEditareIntreabare.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInformatiiIntreabare.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInregistrareAdministrator.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaIntrebare.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaLogareAdministrator.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaSetupTest.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaStergere_EditareIntrebare.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaVizualizareRezultate.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormBunVenit.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaProfilAdministrator.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.Properties.Resources.resources
+C:\Users\r_tra\Documents\Visual Studio 2013\Projects\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.GenerateResource.Cache
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csprojAssemblyReference.cache
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAfisareProfil.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaEditareIntreabare.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInformatiiIntreabare.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInregistrareAdministrator.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaIntrebare.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaLogareAdministrator.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaSetupTest.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaStergere_EditareIntrebare.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaVizualizareRezultate.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormBunVenit.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaProfilAdministrator.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.Properties.Resources.resources
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.GenerateResource.cache
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.CoreCompileInputs.cache
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.exe
+C:\Users\r_tra\source\repos\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAfisareProfil.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaEditareIntreabare.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInformatiiIntreabare.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInregistrareAdministrator.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaIntrebare.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaLogareAdministrator.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaSetupTest.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaStergere_EditareIntrebare.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaVizualizareRezultate.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormBunVenit.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaProfilAdministrator.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.Properties.Resources.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.GenerateResource.cache
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.CoreCompileInputs.cache
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.exe
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe.config
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Gat.Controls.MessageBox.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\MaterialSkin.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Zeroit.Framework.LollipopControls.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.xml
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.xml
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\fr\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\ru\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.CopyComplete
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAdaugareDomeniiNoi.resources
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Microsoft.CSharp.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Data.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Deployment.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Design.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Drawing.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Messaging.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Security.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Windows.Forms.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Xml.dll
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Xml.Linq.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe.config
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Gat.Controls.MessageBox.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\MaterialSkin.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Microsoft.CSharp.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Data.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Deployment.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Design.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Drawing.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Messaging.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Security.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Windows.Forms.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Xml.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Xml.Linq.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Zeroit.Framework.LollipopControls.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.xml
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.xml
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\fr\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\ru\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csprojAssemblyReference.cache
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAdaugareDomeniiNoi.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAfisareProfil.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaEditareIntreabare.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInformatiiIntreabare.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInregistrareAdministrator.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaIntrebare.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaLogareAdministrator.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaSetupTest.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaStergere_EditareIntrebare.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaVizualizareRezultate.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormBunVenit.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaProfilAdministrator.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.Properties.Resources.resources
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.GenerateResource.cache
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.CoreCompileInputs.cache
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.CopyComplete
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.exe
+C:\Users\r_tra\Desktop\Files\PROJECTS\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Desktop\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csprojAssemblyReference.cache
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAdaugareDomeniiNoi.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAfisareProfil.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaEditareIntreabare.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInformatiiIntreabare.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInregistrareAdministrator.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaIntrebare.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaLogareAdministrator.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaSetupTest.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaStergere_EditareIntrebare.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaVizualizareRezultate.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormBunVenit.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaProfilAdministrator.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.GenerateResource.cache
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.exe
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe.config
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Gat.Controls.MessageBox.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\MaterialSkin.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Microsoft.CSharp.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Data.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Deployment.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Design.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Drawing.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Messaging.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Security.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Windows.Forms.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Xml.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Xml.Linq.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Zeroit.Framework.LollipopControls.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.xml
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.xml
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\fr\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\ru\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.Properties.Resources.resources
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.CoreCompileInputs.cache
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.CopyComplete
+C:\Users\r_tra\Desktop\Files\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csprojAssemblyReference.cache
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe.config
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.exe
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\CreatorTeste.pdb
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Gat.Controls.MessageBox.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\MaterialSkin.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Microsoft.CSharp.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Data.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Deployment.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Design.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Drawing.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Messaging.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Security.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Windows.Forms.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Xml.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\System.Xml.Linq.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\Zeroit.Framework.LollipopControls.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\AdvancedDataGridView.xml
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.xml
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\fr\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\bin\Debug\ru\AdvancedDataGridView.resources.dll
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAdaugareDomeniiNoi.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaAfisareProfil.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaEditareIntreabare.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInformatiiIntreabare.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaInregistrareAdministrator.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaIntrebare.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaLogareAdministrator.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaSetupTest.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaStergere_EditareIntrebare.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaVizualizareRezultate.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormBunVenit.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.FormaProfilAdministrator.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.Properties.Resources.resources
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.GenerateResource.cache
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.CoreCompileInputs.cache
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.csproj.CopyComplete
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.exe
+C:\Users\r_tra\Desktop\FilesLocal\ProiectCreatorGeneratorT\CreatorTeste\CreatorTeste\obj\Debug\CreatorTeste.pdb

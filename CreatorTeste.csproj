@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DEB8D08C-34F3-4A13-88EF-BD52426E7CBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CreatorTeste</RootNamespace>
+    <AssemblyName>CreatorTeste</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedDataGridView">
+      <HintPath>..\packages\ADGV.0.1.0.10\lib\net40\AdvancedDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Gat.Controls.MessageBox">
+      <HintPath>..\packages\MessageBox.2.1.0\lib\net45\Gat.Controls.MessageBox.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Messaging">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Zeroit.Framework.LollipopControls">
+      <HintPath>..\packages\Zeroit.Framework.LollipopControls.1.0.0\lib\Zeroit.Framework.LollipopControls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormaAdaugareDomeniiNoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaAdaugareDomeniiNoi.Designer.cs">
+      <DependentUpon>FormaAdaugareDomeniiNoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormaAfisareProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaAfisareProfil.Designer.cs">
+      <DependentUpon>FormaAfisareProfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormaEditareIntreabare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaEditareIntreabare.Designer.cs">
+      <DependentUpon>FormaEditareIntreabare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormaInregistrareAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaInregistrareAdministrator.Designer.cs">
+      <DependentUpon>FormaInregistrareAdministrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormaIntrebare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaIntrebare.Designer.cs">
+      <DependentUpon>FormaIntrebare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormaLogareAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaLogareAdministrator.Designer.cs">
+      <DependentUpon>FormaLogareAdministrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormaSetupTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaSetupTest.Designer.cs">
+      <DependentUpon>FormaSetupTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormaStergere_EditareIntrebare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaStergere_EditareIntrebare.Designer.cs">
+      <DependentUpon>FormaStergere_EditareIntrebare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormaVizualizareRezultate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaVizualizareRezultate.Designer.cs">
+      <DependentUpon>FormaVizualizareRezultate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBunVenit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBunVenit.Designer.cs">
+      <DependentUpon>FormBunVenit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LollipopButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopFileInput.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopFlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopFolderInPut.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopSmallCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopToggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormaInformatiiIntreabare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaInformatiiIntreabare.Designer.cs">
+      <DependentUpon>FormaInformatiiIntreabare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormaProfilAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaProfilAdministrator.Designer.cs">
+      <DependentUpon>FormaProfilAdministrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialGeometrical.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="t_Capitole.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_Conturi.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_Dificultati.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_Domenii.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_DomeniiAdministratori.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_InformatiiRezultate.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_Intrebari.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_IntrebariRezultate.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_Parole.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_Rezultate.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_TexteVariante.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_Variante.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UIManagers\DrawHelper.cs" />
+    <Compile Include="UIManagers\FontManager.cs" />
+    <EmbeddedResource Include="FormaAdaugareDomeniiNoi.resx">
+      <DependentUpon>FormaAdaugareDomeniiNoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaAfisareProfil.resx">
+      <DependentUpon>FormaAfisareProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaEditareIntreabare.resx">
+      <DependentUpon>FormaEditareIntreabare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaInformatiiIntreabare.resx">
+      <DependentUpon>FormaInformatiiIntreabare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaInregistrareAdministrator.resx">
+      <DependentUpon>FormaInregistrareAdministrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaIntrebare.resx">
+      <DependentUpon>FormaIntrebare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaLogareAdministrator.resx">
+      <DependentUpon>FormaLogareAdministrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaSetupTest.resx">
+      <DependentUpon>FormaSetupTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaStergere_EditareIntrebare.resx">
+      <DependentUpon>FormaStergere_EditareIntrebare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaVizualizareRezultate.resx">
+      <DependentUpon>FormaVizualizareRezultate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBunVenit.resx">
+      <DependentUpon>FormBunVenit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaProfilAdministrator.resx">
+      <DependentUpon>FormaProfilAdministrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EntityDeploy Include="Model.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model.edmx.diagram">
+      <DependentUpon>Model.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\t_InformatiiRezultate.datasource" />
+    <None Include="Properties\DataSources\t_Intrebari.datasource" />
+    <None Include="Properties\DataSources\t_Rezultate.datasource" />
+    <None Include="Properties\DataSources\t_Rezultate1.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Roboto-Medium.ttf" />
+    <None Include="Resources\Roboto-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+    <None Include="Resources\eye.png" />
+    <None Include="Resources\profile.png" />
+    <None Include="Resources\AddAnImage.png" />
+    <None Include="Resources\adddd.png" />
+    <None Include="Resources\AddAnImage1.png" />
+    <None Include="Resources\AddImageNew.png" />
+    <None Include="Resources\admin.png" />
+    <None Include="Resources\add-user.png" />
+    <Content Include="Model.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.cs</LastGenOutput>
+    </Content>
+    <Content Include="Resources\Artboard_9-512.png" />
+    <None Include="Resources\Artboard_9-5125.png" />
+    <None Include="Resources\icons8_checked_34px.png" />
+    <None Include="Resources\icons8_ok_45px1.png" />
+    <None Include="Resources\icons8_ok_45px.png" />
+    <None Include="Resources\icons8_question_mark_45px.png" />
+    <None Include="Resources\icons8_plus_30px.png" />
+    <None Include="Resources\icons8_plus_80px.png" />
+    <None Include="Resources\icons8_info_70px.png" />
+    <None Include="Resources\icons8_checked_50px.png" />
+    <None Include="Resources\icons8_info_120px.png" />
+    <None Include="Resources\icons8_info_20px1.png" />
+    <None Include="Resources\icons8_info_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

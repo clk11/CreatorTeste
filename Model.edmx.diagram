@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5f9106463bc14fbf9717e7c4a58d4e61" Name="Diagram1">
+        <EntityTypeShape EntityType="TesteDBModel.t_Capitole" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_Conturi" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_Dificultati" Width="1.5" PointX="6" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_Domenii" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_DomeniiAdministratori" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_InformatiiRezultate" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_Intrebari" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_IntrebariRezultate" Width="1.5" PointX="10.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_Parole" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_Rezultate" Width="1.5" PointX="12.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_TexteVariante" Width="1.5" PointX="3.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesteDBModel.t_Variante" Width="1.5" PointX="6" PointY="10.5" IsExpanded="true" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Capitol__ID_Do__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Informa__ID_Ca__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Intreba__ID_Ca__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Conturi__ID_Pa__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Domenii__ID_Co__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Informa__ID_Co__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Intreba__ID_Di__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Domenii__ID_Do__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Rezulta__ID_In__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Intreba__ID_In__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Intreba__ID_Va__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Intreba__ID_Va__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Intreba__ID_Va__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Intreba__ID_Va__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Rezulta__ID_In__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="TesteDBModel.FK__t_Variant__ID_Te__30F848ED" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

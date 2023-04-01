@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TesteDBModelStoreContainer" CdmEntityContainer="TesteDBEntities">
+    <EntitySetMapping Name="t_Capitole">
+      <EntityTypeMapping TypeName="TesteDBModel.t_Capitole">
+        <MappingFragment StoreEntitySet="t_Capitole">
+          <ScalarProperty Name="ID_Capitol" ColumnName="ID_Capitol" />
+          <ScalarProperty Name="Capitol" ColumnName="Capitol" />
+          <ScalarProperty Name="ID_Domeniu" ColumnName="ID_Domeniu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_Conturi">
+      <EntityTypeMapping TypeName="TesteDBModel.t_Conturi">
+        <MappingFragment StoreEntitySet="t_Conturi">
+          <ScalarProperty Name="ID_Cont" ColumnName="ID_Cont" />
+          <ScalarProperty Name="Nume" ColumnName="Nume" />
+          <ScalarProperty Name="ID_Parola" ColumnName="ID_Parola" />
+          <ScalarProperty Name="ImagineProfil" ColumnName="ImagineProfil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_Dificultati">
+      <EntityTypeMapping TypeName="TesteDBModel.t_Dificultati">
+        <MappingFragment StoreEntitySet="t_Dificultati">
+          <ScalarProperty Name="ID_Dificultate" ColumnName="ID_Dificultate" />
+          <ScalarProperty Name="Dificultate" ColumnName="Dificultate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_Domenii">
+      <EntityTypeMapping TypeName="TesteDBModel.t_Domenii">
+        <MappingFragment StoreEntitySet="t_Domenii">
+          <ScalarProperty Name="ID_Domeniu" ColumnName="ID_Domeniu" />
+          <ScalarProperty Name="Domeniu" ColumnName="Domeniu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_DomeniiAdministratori">
+      <EntityTypeMapping TypeName="TesteDBModel.t_DomeniiAdministratori">
+        <MappingFragment StoreEntitySet="t_DomeniiAdministratori">
+          <ScalarProperty Name="ID_DomeniuAdministrator" ColumnName="ID_DomeniuAdministrator" />
+          <ScalarProperty Name="ID_ContAdministrator" ColumnName="ID_ContAdministrator" />
+          <ScalarProperty Name="ID_Domeniu" ColumnName="ID_Domeniu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_InformatiiRezultate">
+      <EntityTypeMapping TypeName="TesteDBModel.t_InformatiiRezultate">
+        <MappingFragment StoreEntitySet="t_InformatiiRezultate">
+          <ScalarProperty Name="ID_InformatiiRezultat" ColumnName="ID_InformatiiRezultat" />
+          <ScalarProperty Name="ID_Cont" ColumnName="ID_Cont" />
+          <ScalarProperty Name="ID_Capitol" ColumnName="ID_Capitol" />
+          <ScalarProperty Name="Punctaj" ColumnName="Punctaj" />
+          <ScalarProperty Name="Nivel" ColumnName="Nivel" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_Intrebari">
+      <EntityTypeMapping TypeName="TesteDBModel.t_Intrebari">
+        <MappingFragment StoreEntitySet="t_Intrebari">
+          <ScalarProperty Name="ID_Intrebare" ColumnName="ID_Intrebare" />
+          <ScalarProperty Name="EnuntIntrebare" ColumnName="EnuntIntrebare" />
+          <ScalarProperty Name="ID_Varianta1" ColumnName="ID_Varianta1" />
+          <ScalarProperty Name="ID_Varianta2" ColumnName="ID_Varianta2" />
+          <ScalarProperty Name="ID_Varianta3" ColumnName="ID_Varianta3" />
+          <ScalarProperty Name="ID_Varianta4" ColumnName="ID_Varianta4" />
+          <ScalarProperty Name="ID_Capitol" ColumnName="ID_Capitol" />
+          <ScalarProperty Name="ID_Dificultate" ColumnName="ID_Dificultate" />
+          <ScalarProperty Name="Imagine" ColumnName="Imagine" />
+          <ScalarProperty Name="Stearsa" ColumnName="Stearsa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_IntrebariRezultate">
+      <EntityTypeMapping TypeName="TesteDBModel.t_IntrebariRezultate">
+        <MappingFragment StoreEntitySet="t_IntrebariRezultate">
+          <ScalarProperty Name="ID_IntrebareRezultat" ColumnName="ID_IntrebareRezultat" />
+          <ScalarProperty Name="ID_Intrebare" ColumnName="ID_Intrebare" />
+          <ScalarProperty Name="Raspuns1" ColumnName="Raspuns1" />
+          <ScalarProperty Name="Raspuns2" ColumnName="Raspuns2" />
+          <ScalarProperty Name="Raspuns3" ColumnName="Raspuns3" />
+          <ScalarProperty Name="Raspuns4" ColumnName="Raspuns4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_Parole">
+      <EntityTypeMapping TypeName="TesteDBModel.t_Parole">
+        <MappingFragment StoreEntitySet="t_Parole">
+          <ScalarProperty Name="ID_Parola" ColumnName="ID_Parola" />
+          <ScalarProperty Name="Parola" ColumnName="Parola" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_Rezultate">
+      <EntityTypeMapping TypeName="TesteDBModel.t_Rezultate">
+        <MappingFragment StoreEntitySet="t_Rezultate">
+          <ScalarProperty Name="ID_Rezultat" ColumnName="ID_Rezultat" />
+          <ScalarProperty Name="ID_InformatiiRezultat" ColumnName="ID_InformatiiRezultat" />
+          <ScalarProperty Name="ID_IntrebareRezultat" ColumnName="ID_IntrebareRezultat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_TexteVariante">
+      <EntityTypeMapping TypeName="TesteDBModel.t_TexteVariante">
+        <MappingFragment StoreEntitySet="t_TexteVariante">
+          <ScalarProperty Name="ID_TextVarianta" ColumnName="ID_TextVarianta" />
+          <ScalarProperty Name="TextVarianta" ColumnName="TextVarianta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_Variante">
+      <EntityTypeMapping TypeName="TesteDBModel.t_Variante">
+        <MappingFragment StoreEntitySet="t_Variante">
+          <ScalarProperty Name="ID_Varianta" ColumnName="ID_Varianta" />
+          <ScalarProperty Name="ID_TextVarianta" ColumnName="ID_TextVarianta" />
+          <ScalarProperty Name="Corecta" ColumnName="Corecta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

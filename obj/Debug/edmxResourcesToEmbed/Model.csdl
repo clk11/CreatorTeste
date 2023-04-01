@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TesteDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="t_Capitole">
+    <Key>
+      <PropertyRef Name="ID_Capitol" />
+    </Key>
+    <Property Name="ID_Capitol" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Capitol" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_Domeniu" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="t_Domenii" Relationship="Self.FK__t_Capitol__ID_Do__2C3393D0" FromRole="t_Capitole" ToRole="t_Domenii" />
+    <NavigationProperty Name="t_InformatiiRezultate" Relationship="Self.FK__t_Informa__ID_Ca__6477ECF3" FromRole="t_Capitole" ToRole="t_InformatiiRezultate" />
+    <NavigationProperty Name="t_Intrebari" Relationship="Self.FK__t_Intreba__ID_Ca__5535A963" FromRole="t_Capitole" ToRole="t_Intrebari" />
+  </EntityType>
+  <EntityType Name="t_Conturi">
+    <Key>
+      <PropertyRef Name="ID_Cont" />
+    </Key>
+    <Property Name="ID_Cont" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nume" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_Parola" Type="Int32" Nullable="false" />
+    <Property Name="ImagineProfil" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="t_Parole" Relationship="Self.FK__t_Conturi__ID_Pa__59063A47" FromRole="t_Conturi" ToRole="t_Parole" />
+    <NavigationProperty Name="t_DomeniiAdministratori" Relationship="Self.FK__t_Domenii__ID_Co__02FC7413" FromRole="t_Conturi" ToRole="t_DomeniiAdministratori" />
+    <NavigationProperty Name="t_InformatiiRezultate" Relationship="Self.FK__t_Informa__ID_Co__6383C8BA" FromRole="t_Conturi" ToRole="t_InformatiiRezultate" />
+  </EntityType>
+  <EntityType Name="t_Dificultati">
+    <Key>
+      <PropertyRef Name="ID_Dificultate" />
+    </Key>
+    <Property Name="ID_Dificultate" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Dificultate" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="t_Intrebari" Relationship="Self.FK__t_Intreba__ID_Di__5629CD9C" FromRole="t_Dificultati" ToRole="t_Intrebari" />
+  </EntityType>
+  <EntityType Name="t_Domenii">
+    <Key>
+      <PropertyRef Name="ID_Domeniu" />
+    </Key>
+    <Property Name="ID_Domeniu" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Domeniu" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="t_Capitole" Relationship="Self.FK__t_Capitol__ID_Do__2C3393D0" FromRole="t_Domenii" ToRole="t_Capitole" />
+    <NavigationProperty Name="t_DomeniiAdministratori" Relationship="Self.FK__t_Domenii__ID_Do__03F0984C" FromRole="t_Domenii" ToRole="t_DomeniiAdministratori" />
+  </EntityType>
+  <EntityType Name="t_DomeniiAdministratori">
+    <Key>
+      <PropertyRef Name="ID_DomeniuAdministrator" />
+    </Key>
+    <Property Name="ID_DomeniuAdministrator" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_ContAdministrator" Type="Int32" Nullable="false" />
+    <Property Name="ID_Domeniu" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="t_Conturi" Relationship="Self.FK__t_Domenii__ID_Co__02FC7413" FromRole="t_DomeniiAdministratori" ToRole="t_Conturi" />
+    <NavigationProperty Name="t_Domenii" Relationship="Self.FK__t_Domenii__ID_Do__03F0984C" FromRole="t_DomeniiAdministratori" ToRole="t_Domenii" />
+  </EntityType>
+  <EntityType Name="t_InformatiiRezultate">
+    <Key>
+      <PropertyRef Name="ID_InformatiiRezultat" />
+    </Key>
+    <Property Name="ID_InformatiiRezultat" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Cont" Type="Int32" Nullable="false" />
+    <Property Name="ID_Capitol" Type="Int32" Nullable="false" />
+    <Property Name="Punctaj" Type="Double" Nullable="false" />
+    <Property Name="Nivel" Type="Int32" Nullable="false" />
+    <Property Name="Data" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="t_Capitole" Relationship="Self.FK__t_Informa__ID_Ca__6477ECF3" FromRole="t_InformatiiRezultate" ToRole="t_Capitole" />
+    <NavigationProperty Name="t_Conturi" Relationship="Self.FK__t_Informa__ID_Co__6383C8BA" FromRole="t_InformatiiRezultate" ToRole="t_Conturi" />
+    <NavigationProperty Name="t_Rezultate" Relationship="Self.FK__t_Rezulta__ID_In__7B5B524B" FromRole="t_InformatiiRezultate" ToRole="t_Rezultate" />
+  </EntityType>
+  <EntityType Name="t_Intrebari">
+    <Key>
+      <PropertyRef Name="ID_Intrebare" />
+    </Key>
+    <Property Name="ID_Intrebare" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EnuntIntrebare" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_Varianta1" Type="Int32" Nullable="false" />
+    <Property Name="ID_Varianta2" Type="Int32" Nullable="false" />
+    <Property Name="ID_Varianta3" Type="Int32" Nullable="false" />
+    <Property Name="ID_Varianta4" Type="Int32" Nullable="false" />
+    <Property Name="ID_Capitol" Type="Int32" Nullable="false" />
+    <Property Name="ID_Dificultate" Type="Int32" Nullable="false" />
+    <Property Name="Imagine" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Stearsa" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="t_Capitole" Relationship="Self.FK__t_Intreba__ID_Ca__5535A963" FromRole="t_Intrebari" ToRole="t_Capitole" />
+    <NavigationProperty Name="t_Dificultati" Relationship="Self.FK__t_Intreba__ID_Di__5629CD9C" FromRole="t_Intrebari" ToRole="t_Dificultati" />
+    <NavigationProperty Name="t_IntrebariRezultate" Relationship="Self.FK__t_Intreba__ID_In__787EE5A0" FromRole="t_Intrebari" ToRole="t_IntrebariRezultate" />
+    <NavigationProperty Name="t_Variante" Relationship="Self.FK__t_Intreba__ID_Va__5165187F" FromRole="t_Intrebari" ToRole="t_Variante" />
+    <NavigationProperty Name="t_Variante1" Relationship="Self.FK__t_Intreba__ID_Va__52593CB8" FromRole="t_Intrebari" ToRole="t_Variante" />
+    <NavigationProperty Name="t_Variante2" Relationship="Self.FK__t_Intreba__ID_Va__534D60F1" FromRole="t_Intrebari" ToRole="t_Variante" />
+    <NavigationProperty Name="t_Variante3" Relationship="Self.FK__t_Intreba__ID_Va__5441852A" FromRole="t_Intrebari" ToRole="t_Variante" />
+  </EntityType>
+  <EntityType Name="t_IntrebariRezultate">
+    <Key>
+      <PropertyRef Name="ID_IntrebareRezultat" />
+    </Key>
+    <Property Name="ID_IntrebareRezultat" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Intrebare" Type="Int32" Nullable="false" />
+    <Property Name="Raspuns1" Type="Boolean" Nullable="false" />
+    <Property Name="Raspuns2" Type="Boolean" Nullable="false" />
+    <Property Name="Raspuns3" Type="Boolean" Nullable="false" />
+    <Property Name="Raspuns4" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="t_Intrebari" Relationship="Self.FK__t_Intreba__ID_In__787EE5A0" FromRole="t_IntrebariRezultate" ToRole="t_Intrebari" />
+    <NavigationProperty Name="t_Rezultate" Relationship="Self.FK__t_Rezulta__ID_In__7C4F7684" FromRole="t_IntrebariRezultate" ToRole="t_Rezultate" />
+  </EntityType>
+  <EntityType Name="t_Parole">
+    <Key>
+      <PropertyRef Name="ID_Parola" />
+    </Key>
+    <Property Name="ID_Parola" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Parola" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="t_Conturi" Relationship="Self.FK__t_Conturi__ID_Pa__59063A47" FromRole="t_Parole" ToRole="t_Conturi" />
+  </EntityType>
+  <EntityType Name="t_Rezultate">
+    <Key>
+      <PropertyRef Name="ID_Rezultat" />
+    </Key>
+    <Property Name="ID_Rezultat" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_InformatiiRezultat" Type="Int32" Nullable="false" />
+    <Property Name="ID_IntrebareRezultat" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="t_InformatiiRezultate" Relationship="Self.FK__t_Rezulta__ID_In__7B5B524B" FromRole="t_Rezultate" ToRole="t_InformatiiRezultate" />
+    <NavigationProperty Name="t_IntrebariRezultate" Relationship="Self.FK__t_Rezulta__ID_In__7C4F7684" FromRole="t_Rezultate" ToRole="t_IntrebariRezultate" />
+  </EntityType>
+  <EntityType Name="t_TexteVariante">
+    <Key>
+      <PropertyRef Name="ID_TextVarianta" />
+    </Key>
+    <Property Name="ID_TextVarianta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TextVarianta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="t_Variante" Relationship="Self.FK__t_Variant__ID_Te__30F848ED" FromRole="t_TexteVariante" ToRole="t_Variante" />
+  </EntityType>
+  <EntityType Name="t_Variante">
+    <Key>
+      <PropertyRef Name="ID_Varianta" />
+    </Key>
+    <Property Name="ID_Varianta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_TextVarianta" Type="Int32" Nullable="false" />
+    <Property Name="Corecta" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="t_Intrebari" Relationship="Self.FK__t_Intreba__ID_Va__5165187F" FromRole="t_Variante" ToRole="t_Intrebari" />
+    <NavigationProperty Name="t_Intrebari1" Relationship="Self.FK__t_Intreba__ID_Va__52593CB8" FromRole="t_Variante" ToRole="t_Intrebari" />
+    <NavigationProperty Name="t_Intrebari2" Relationship="Self.FK__t_Intreba__ID_Va__534D60F1" FromRole="t_Variante" ToRole="t_Intrebari" />
+    <NavigationProperty Name="t_Intrebari3" Relationship="Self.FK__t_Intreba__ID_Va__5441852A" FromRole="t_Variante" ToRole="t_Intrebari" />
+    <NavigationProperty Name="t_TexteVariante" Relationship="Self.FK__t_Variant__ID_Te__30F848ED" FromRole="t_Variante" ToRole="t_TexteVariante" />
+  </EntityType>
+  <Association Name="FK__t_Capitol__ID_Do__2C3393D0">
+    <End Role="t_Domenii" Type="Self.t_Domenii" Multiplicity="1" />
+    <End Role="t_Capitole" Type="Self.t_Capitole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Domenii">
+        <PropertyRef Name="ID_Domeniu" />
+      </Principal>
+      <Dependent Role="t_Capitole">
+        <PropertyRef Name="ID_Domeniu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Informa__ID_Ca__6477ECF3">
+    <End Role="t_Capitole" Type="Self.t_Capitole" Multiplicity="1" />
+    <End Role="t_InformatiiRezultate" Type="Self.t_InformatiiRezultate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Capitole">
+        <PropertyRef Name="ID_Capitol" />
+      </Principal>
+      <Dependent Role="t_InformatiiRezultate">
+        <PropertyRef Name="ID_Capitol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Intreba__ID_Ca__5535A963">
+    <End Role="t_Capitole" Type="Self.t_Capitole" Multiplicity="1" />
+    <End Role="t_Intrebari" Type="Self.t_Intrebari" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Capitole">
+        <PropertyRef Name="ID_Capitol" />
+      </Principal>
+      <Dependent Role="t_Intrebari">
+        <PropertyRef Name="ID_Capitol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Conturi__ID_Pa__59063A47">
+    <End Role="t_Parole" Type="Self.t_Parole" Multiplicity="1" />
+    <End Role="t_Conturi" Type="Self.t_Conturi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Parole">
+        <PropertyRef Name="ID_Parola" />
+      </Principal>
+      <Dependent Role="t_Conturi">
+        <PropertyRef Name="ID_Parola" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Domenii__ID_Co__02FC7413">
+    <End Role="t_Conturi" Type="Self.t_Conturi" Multiplicity="1" />
+    <End Role="t_DomeniiAdministratori" Type="Self.t_DomeniiAdministratori" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Conturi">
+        <PropertyRef Name="ID_Cont" />
+      </Principal>
+      <Dependent Role="t_DomeniiAdministratori">
+        <PropertyRef Name="ID_ContAdministrator" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Informa__ID_Co__6383C8BA">
+    <End Role="t_Conturi" Type="Self.t_Conturi" Multiplicity="1" />
+    <End Role="t_InformatiiRezultate" Type="Self.t_InformatiiRezultate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Conturi">
+        <PropertyRef Name="ID_Cont" />
+      </Principal>
+      <Dependent Role="t_InformatiiRezultate">
+        <PropertyRef Name="ID_Cont" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Intreba__ID_Di__5629CD9C">
+    <End Role="t_Dificultati" Type="Self.t_Dificultati" Multiplicity="1" />
+    <End Role="t_Intrebari" Type="Self.t_Intrebari" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Dificultati">
+        <PropertyRef Name="ID_Dificultate" />
+      </Principal>
+      <Dependent Role="t_Intrebari">
+        <PropertyRef Name="ID_Dificultate" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Domenii__ID_Do__03F0984C">
+    <End Role="t_Domenii" Type="Self.t_Domenii" Multiplicity="1" />
+    <End Role="t_DomeniiAdministratori" Type="Self.t_DomeniiAdministratori" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Domenii">
+        <PropertyRef Name="ID_Domeniu" />
+      </Principal>
+      <Dependent Role="t_DomeniiAdministratori">
+        <PropertyRef Name="ID_Domeniu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Rezulta__ID_In__7B5B524B">
+    <End Role="t_InformatiiRezultate" Type="Self.t_InformatiiRezultate" Multiplicity="1" />
+    <End Role="t_Rezultate" Type="Self.t_Rezultate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_InformatiiRezultate">
+        <PropertyRef Name="ID_InformatiiRezultat" />
+      </Principal>
+      <Dependent Role="t_Rezultate">
+        <PropertyRef Name="ID_InformatiiRezultat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Intreba__ID_In__787EE5A0">
+    <End Role="t_Intrebari" Type="Self.t_Intrebari" Multiplicity="1" />
+    <End Role="t_IntrebariRezultate" Type="Self.t_IntrebariRezultate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Intrebari">
+        <PropertyRef Name="ID_Intrebare" />
+      </Principal>
+      <Dependent Role="t_IntrebariRezultate">
+        <PropertyRef Name="ID_Intrebare" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Intreba__ID_Va__5165187F">
+    <End Role="t_Variante" Type="Self.t_Variante" Multiplicity="1" />
+    <End Role="t_Intrebari" Type="Self.t_Intrebari" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Variante">
+        <PropertyRef Name="ID_Varianta" />
+      </Principal>
+      <Dependent Role="t_Intrebari">
+        <PropertyRef Name="ID_Varianta1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Intreba__ID_Va__52593CB8">
+    <End Role="t_Variante" Type="Self.t_Variante" Multiplicity="1" />
+    <End Role="t_Intrebari" Type="Self.t_Intrebari" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Variante">
+        <PropertyRef Name="ID_Varianta" />
+      </Principal>
+      <Dependent Role="t_Intrebari">
+        <PropertyRef Name="ID_Varianta2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Intreba__ID_Va__534D60F1">
+    <End Role="t_Variante" Type="Self.t_Variante" Multiplicity="1" />
+    <End Role="t_Intrebari" Type="Self.t_Intrebari" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Variante">
+        <PropertyRef Name="ID_Varianta" />
+      </Principal>
+      <Dependent Role="t_Intrebari">
+        <PropertyRef Name="ID_Varianta3" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Intreba__ID_Va__5441852A">
+    <End Role="t_Variante" Type="Self.t_Variante" Multiplicity="1" />
+    <End Role="t_Intrebari" Type="Self.t_Intrebari" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Variante">
+        <PropertyRef Name="ID_Varianta" />
+      </Principal>
+      <Dependent Role="t_Intrebari">
+        <PropertyRef Name="ID_Varianta4" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Rezulta__ID_In__7C4F7684">
+    <End Role="t_IntrebariRezultate" Type="Self.t_IntrebariRezultate" Multiplicity="1" />
+    <End Role="t_Rezultate" Type="Self.t_Rezultate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_IntrebariRezultate">
+        <PropertyRef Name="ID_IntrebareRezultat" />
+      </Principal>
+      <Dependent Role="t_Rezultate">
+        <PropertyRef Name="ID_IntrebareRezultat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Variant__ID_Te__30F848ED">
+    <End Role="t_TexteVariante" Type="Self.t_TexteVariante" Multiplicity="1" />
+    <End Role="t_Variante" Type="Self.t_Variante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_TexteVariante">
+        <PropertyRef Name="ID_TextVarianta" />
+      </Principal>
+      <Dependent Role="t_Variante">
+        <PropertyRef Name="ID_TextVarianta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TesteDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="t_Capitole" EntityType="Self.t_Capitole" />
+    <EntitySet Name="t_Conturi" EntityType="Self.t_Conturi" />
+    <EntitySet Name="t_Dificultati" EntityType="Self.t_Dificultati" />
+    <EntitySet Name="t_Domenii" EntityType="Self.t_Domenii" />
+    <EntitySet Name="t_DomeniiAdministratori" EntityType="Self.t_DomeniiAdministratori" />
+    <EntitySet Name="t_InformatiiRezultate" EntityType="Self.t_InformatiiRezultate" />
+    <EntitySet Name="t_Intrebari" EntityType="Self.t_Intrebari" />
+    <EntitySet Name="t_IntrebariRezultate" EntityType="Self.t_IntrebariRezultate" />
+    <EntitySet Name="t_Parole" EntityType="Self.t_Parole" />
+    <EntitySet Name="t_Rezultate" EntityType="Self.t_Rezultate" />
+    <EntitySet Name="t_TexteVariante" EntityType="Self.t_TexteVariante" />
+    <EntitySet Name="t_Variante" EntityType="Self.t_Variante" />
+    <AssociationSet Name="FK__t_Capitol__ID_Do__2C3393D0" Association="Self.FK__t_Capitol__ID_Do__2C3393D0">
+      <End Role="t_Domenii" EntitySet="t_Domenii" />
+      <End Role="t_Capitole" EntitySet="t_Capitole" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Informa__ID_Ca__6477ECF3" Association="Self.FK__t_Informa__ID_Ca__6477ECF3">
+      <End Role="t_Capitole" EntitySet="t_Capitole" />
+      <End Role="t_InformatiiRezultate" EntitySet="t_InformatiiRezultate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Intreba__ID_Ca__5535A963" Association="Self.FK__t_Intreba__ID_Ca__5535A963">
+      <End Role="t_Capitole" EntitySet="t_Capitole" />
+      <End Role="t_Intrebari" EntitySet="t_Intrebari" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Conturi__ID_Pa__59063A47" Association="Self.FK__t_Conturi__ID_Pa__59063A47">
+      <End Role="t_Parole" EntitySet="t_Parole" />
+      <End Role="t_Conturi" EntitySet="t_Conturi" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Domenii__ID_Co__02FC7413" Association="Self.FK__t_Domenii__ID_Co__02FC7413">
+      <End Role="t_Conturi" EntitySet="t_Conturi" />
+      <End Role="t_DomeniiAdministratori" EntitySet="t_DomeniiAdministratori" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Informa__ID_Co__6383C8BA" Association="Self.FK__t_Informa__ID_Co__6383C8BA">
+      <End Role="t_Conturi" EntitySet="t_Conturi" />
+      <End Role="t_InformatiiRezultate" EntitySet="t_InformatiiRezultate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Intreba__ID_Di__5629CD9C" Association="Self.FK__t_Intreba__ID_Di__5629CD9C">
+      <End Role="t_Dificultati" EntitySet="t_Dificultati" />
+      <End Role="t_Intrebari" EntitySet="t_Intrebari" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Domenii__ID_Do__03F0984C" Association="Self.FK__t_Domenii__ID_Do__03F0984C">
+      <End Role="t_Domenii" EntitySet="t_Domenii" />
+      <End Role="t_DomeniiAdministratori" EntitySet="t_DomeniiAdministratori" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Rezulta__ID_In__7B5B524B" Association="Self.FK__t_Rezulta__ID_In__7B5B524B">
+      <End Role="t_InformatiiRezultate" EntitySet="t_InformatiiRezultate" />
+      <End Role="t_Rezultate" EntitySet="t_Rezultate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Intreba__ID_In__787EE5A0" Association="Self.FK__t_Intreba__ID_In__787EE5A0">
+      <End Role="t_Intrebari" EntitySet="t_Intrebari" />
+      <End Role="t_IntrebariRezultate" EntitySet="t_IntrebariRezultate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Intreba__ID_Va__5165187F" Association="Self.FK__t_Intreba__ID_Va__5165187F">
+      <End Role="t_Variante" EntitySet="t_Variante" />
+      <End Role="t_Intrebari" EntitySet="t_Intrebari" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Intreba__ID_Va__52593CB8" Association="Self.FK__t_Intreba__ID_Va__52593CB8">
+      <End Role="t_Variante" EntitySet="t_Variante" />
+      <End Role="t_Intrebari" EntitySet="t_Intrebari" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Intreba__ID_Va__534D60F1" Association="Self.FK__t_Intreba__ID_Va__534D60F1">
+      <End Role="t_Variante" EntitySet="t_Variante" />
+      <End Role="t_Intrebari" EntitySet="t_Intrebari" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Intreba__ID_Va__5441852A" Association="Self.FK__t_Intreba__ID_Va__5441852A">
+      <End Role="t_Variante" EntitySet="t_Variante" />
+      <End Role="t_Intrebari" EntitySet="t_Intrebari" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Rezulta__ID_In__7C4F7684" Association="Self.FK__t_Rezulta__ID_In__7C4F7684">
+      <End Role="t_IntrebariRezultate" EntitySet="t_IntrebariRezultate" />
+      <End Role="t_Rezultate" EntitySet="t_Rezultate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Variant__ID_Te__30F848ED" Association="Self.FK__t_Variant__ID_Te__30F848ED">
+      <End Role="t_TexteVariante" EntitySet="t_TexteVariante" />
+      <End Role="t_Variante" EntitySet="t_Variante" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
