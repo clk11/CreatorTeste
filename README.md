@@ -29,7 +29,7 @@ CreatorTeste is a C# application designed to facilitate test creation and manage
    - Includes features for adding, editing, and deleting records in the database.
 
 **Setup Instructions:**
-To run the application, download the source code from the [GitHub Repository](https://github.com/clk11/CreatorTeste) and contact the project owner at trasca.robert2003@gmail.com to obtain the database.
+To run the application, download the source code from the [GitHub Repository](https://github.com/clk11/CreatorTeste) and contact me at trasca.robert2003@gmail.com to obtain the database.
 
 **Languages:**
 - C#
